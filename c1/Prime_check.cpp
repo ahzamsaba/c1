@@ -8,6 +8,7 @@ bool is_prime(int num) {
     if (num < 2) {
         return false;
     }
+    std::cout<<"yuvraj cha......";
     for (int i = 2; i <= static_cast<int>(sqrt(num)); ++i) {
         if (num % i == 0) {
             return false;
